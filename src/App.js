@@ -1,5 +1,5 @@
 import './styles.css';
-import CounterC from '../components/CounterC';
+import CounterC from '../components/FunctionClickC';
 
 export default function App() {
   return (
