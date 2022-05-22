@@ -2,7 +2,12 @@ import React, { Component } from "react";
 
 class GreetClass extends Component {
   render() {
-    return <h1>Hello GreetClass!</h1>;
+    const { name, heroName } = this.props;
+    return (
+      <h1>
+        Welcom {name} ==> {heroName}
+      </h1>
+    );
   }
 }
 
